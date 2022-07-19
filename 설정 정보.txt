@@ -50,5 +50,29 @@ git init 설정
 git status
 git add .
 git status
-git commit -m '프로젝트 생성'
+git commit -m "프로젝트 생성"
 git log
+
+git remote add origin https://github.com/seunghuibaek/nodetest.git
+git push origin master
+
+https://github.com/HeropCode/Svelte-Movie-app  -- 강의 git 저장소
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
