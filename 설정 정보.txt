@@ -58,9 +58,9 @@ git push origin master
 
 https://github.com/HeropCode/Svelte-Movie-app  -- 강의 git 저장소
 
+ecma 스크립트
 
-
-
+import getTyp from '/getType'   <-- 스크립트 불러오는거
 
 
 
