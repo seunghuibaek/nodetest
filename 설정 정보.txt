@@ -13,6 +13,18 @@ npm install lodash
 -------------------------------------------------------
 
 -------------------------------------------------------
+lodash 설치(https://lodash.com/docs/4.17.15)
+npm i lodash
+
+import _ from 'lodash'     -> _ 바로 할 경우 node_moudules 폴더에서 가저옴
+
+내보낼때 
+export default function getType(data) {
+    
+}
+-------------------------------------------------------
+
+-------------------------------------------------------
 서버 온
 터미널 오픈
 package.json 열어서 scripts 부분에 "dev": "parcel index.html" 입력
@@ -62,14 +74,49 @@ ecma 스크립트
 
 import getTyp from '/getType'   <-- 스크립트 불러오는거
 
+arguments -- 배열로 값을 받음
 
+// 화살표 함수
+const a = 7;
+const doubleTest = (b) => {
+    console.log(b * 2);
+}
+doubleTest(8);
 
+// 즉시 실행 함수
+(function () {
+    console.log(a * 2 );
+})();
+(function () {
+    console.log(a * 2 );
+})();
 
+// 호이스팅
+// 함수 선언부가 유효범위 최상단으로 끌어올려지는 현상
 
+const b = 7;
+const double1 = function () {
+    console.log(b * 2);
+}
 
+// new 생성
+// user.prototype 함수안에 추가
+function user(first, last) {
+    this.firstName = first;
+    this.lastName = last;
+    // this.getFullName = function() {
+    //     return `${this.firstName} ${this.lastName}`;
+    // }
+}
+user.prototype.getFullName = function () {
+    return `${this.firstName} ${this.lastName}`;
+}
 
+const bluewar = new user('Bluewar', 'SeungHui');
+console.log(bluewar.getFullName());
 
-
+// javascript 내장 객체 정보
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String
 
 
 

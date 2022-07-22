@@ -1,3 +1,3 @@
-export default function random(mNum) {
-    return Math.floor(Math.random() * mNum);
+export function random() {
+    return Math.floor(Math.random() * 10);
 }
