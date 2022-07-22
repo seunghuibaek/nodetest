@@ -3,9 +3,9 @@ import _ from 'lodash'
 import checkType from './getType'
 import {random} from './getRandom'
 
-console.log(_.camelCase('the hello workd'))
-console.log(checkType([1, 2, 3]))
-console.log(random(), random())
+console.log(_.camelCase('the hello workd'));
+console.log(checkType([1, 2, 3]));
+console.log(random(), random());
 // const ulEl = document.querySelector("ul");
 // for (let i = 0; i < 10; i++) {
 //     const li = document.createElement("li");
