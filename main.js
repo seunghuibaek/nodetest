@@ -2,10 +2,12 @@
 import _ from 'lodash'
 import checkType from './getType'
 import {random} from './getRandom'
+import * as R from './getRandom'
 
 console.log(_.camelCase('the hello workd'));
 console.log(checkType([1, 2, 3]));
 console.log(random(), random());
+console.log(R);
 
 // const ulEl = document.querySelector("ul");
 // for (let i = 0; i < 10; i++) {

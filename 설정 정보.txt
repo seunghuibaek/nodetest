@@ -118,8 +118,9 @@ console.log(bluewar.getFullName());
 // javascript 내장 객체 정보
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String
 
+axios  -- json parse
+npm i axios
 
-
-
-
+정규식 표현식(설명)
+https://heropy.blog/2018/10/28/regexp
 

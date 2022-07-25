@@ -1,0 +1,10 @@
+{
+    "string": "HEROPY",
+    "number": 123,
+    "boolean": true,
+    "null": null,
+    "object": {},
+    "array": []
+}
+
+{"name":"HEROPY","age":85,"emails":["bluewar111@nate.com","bluewar111@naver.com"]}
