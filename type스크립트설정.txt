@@ -1,0 +1,40 @@
+컴파일러 설치
+* npm
+    npm i typescript -g  -- 설치 명령어
+    node_modules/.bin/typescript  -- 설치 후 생성되는 폴더
+    tsc source.ts  -- 컴파일
+
+    - 글로벌 설치
+        npm i typescript -g
+    - 컴파일 명령어
+        tsc 파일명
+    - typescript json 생성
+        tsc --init   // json이 생성되면 tsc만 쳐도 컴파일됨
+    - 파일 생성 수정시 자동으로 컴파일(watching mode)
+        tsc -w
+
+    - 프로젝트별 컴파일러 설치
+        글로벌 설치 삭제
+        npm uninstall typescript -g
+        npm init -y
+
+        npm i typescript
+        실행
+        node_modules/.bin/tsc  
+        npx tsc  -- 단축
+
+        npx tsc --init
+
+        package.json 에 아래 문구 추가시 tsc 로 컴파일 가능
+        "scripts": {
+            "build": "tsc"
+        },
+
+        개발용 설치
+        npm i typescript -D
+Visual studio plugin 설치
+    Visual studio 2017 / 2015 Update3 이후로는 디폴트로 설치되어 있음
+    TSLint 설치
+        vsc에서 확장 프로그램설치 (Ctrl + Shift + x)
+        TSLint 검색
+        -- 설치시 오류라고 표시된 곳에 마우스르 올리면 해당 오류를 확인 할 수 있다
